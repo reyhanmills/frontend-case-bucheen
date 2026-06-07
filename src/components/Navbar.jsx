@@ -18,8 +18,8 @@ function Navbar() {
                 </ul>
 
                 <div className="flex items-center gap-6">
-                    <button className="h-12 cursor-pointer rounded-[2xl] border border-[#FF725E] px-8 text-sm font-medium text-[#FF725E]">Sign In</button>
-                    <button className="h-12 cursor-pointer rounded-[2xl] bg-[#FF725E] px-8 text-sm font-medium text-white">Sign Up</button>
+                    <button className="h-12 cursor-pointer rounded-2xl border border-[#FF725E] px-8 text-sm font-medium text-[#FF725E]">Sign In</button>
+                    <button className="h-12 cursor-pointer rounded-2xl bg-[#FF725E] px-8 text-sm font-medium text-white">Sign Up</button>
                 </div>
             </nav>
         </header>
