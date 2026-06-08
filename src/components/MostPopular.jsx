@@ -4,8 +4,7 @@ import card3 from '../assets/card3.png'
 
 function PopularCard({ image, title, description, bgColor }) {
     return (
-        <div className='w-[320px] overflow-hidden rounded-[21px] shadow-xl ${bgColor}'>
-            <img src={image} alt={title} className='h-[247px] w-full object-cover' />
+        <div className={`w-[320px] overflow-hidden rounded-[21px] shadow-xl ${bgColor}`}>            <img src={image} alt={title} className='h-[247px] w-full object-cover' />
 
             <div className='h-[273px] px-8 pt-8'>
                 <h3 className='text-[32px] font-medium text-[#262626]'>

@@ -3,6 +3,7 @@ import HeroSection from './components/HeroSection'
 import About from './components/About'
 import HowItWorks from './components/HowItWorks'
 import MostPopular from './components/MostPopular'
+import Comments from './components/Comments'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About></About>
       <HowItWorks></HowItWorks>
       <MostPopular></MostPopular>
+      <Comments></Comments>
     </main>
   )
 }
