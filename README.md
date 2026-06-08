@@ -43,7 +43,7 @@ src
 │   ├── Navbar.jsx
 │   ├── HeroSection.jsx
 │   ├── About.jsx
-│   └── ...
+│   └── ...git 
 │
 ├── App.jsx
 ├── main.jsx
