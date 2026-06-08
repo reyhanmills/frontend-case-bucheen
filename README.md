@@ -1,34 +1,58 @@
-Proje Hakkında
+# Bucheen Landing Page
 
-Bu proje, verilen Figma tasarımına sadık kalınarak React ve Tailwind CSS kullanılarak geliştirilmiş bir landing page çalışmasıdır. Amaç; temiz component yapısı, okunabilir kod, responsive tasarım prensipleri ve modern frontend geliştirme yaklaşımlarını uygulayarak kullanıcı dostu bir arayüz oluşturmaktır.
+## Proje Hakkında
 
-Kullanılan Teknolojiler
-React 19
-Vite
-Tailwind CSS 4
-Git & GitHub
-Figma
-Özellikler
-Figma tasarımına uygun arayüz geliştirmesi
-Component bazlı yapı
-Responsive tasarım desteği
-Modern ve okunabilir kod yapısı
-Tailwind CSS ile hızlı stil yönetimi
-Proje Yapısı
+Bu proje, verilen Figma tasarımının React ve Tailwind CSS kullanılarak frontend tarafında geliştirilmesi amacıyla oluşturulmuştur. Geliştirme sürecinde tasarıma sadakat, temiz component mimarisi, okunabilir kod yapısı ve responsive kullanıcı deneyimi ön planda tutulmuştur.
+
+Proje boyunca tasarım detayları Figma üzerinden referans alınmış, spacing, typography, renk paleti ve component yerleşimleri mümkün olduğunca tasarıma uygun şekilde uygulanmıştır.
+
+---
+
+## Kullanılan Teknolojiler
+
+- React 19
+- Vite
+- Tailwind CSS 4
+- JavaScript (ES6+)
+- Git
+- GitHub
+- Figma
+
+---
+
+## Teknik Yaklaşım
+
+Bu proje geliştirilirken aşağıdaki prensipler benimsenmiştir:
+
+- Component tabanlı mimari kullanılması
+- Temiz ve sürdürülebilir dosya yapısı oluşturulması
+- Figma tasarımına yüksek sadakat sağlanması
+- Responsive kullanıcı deneyiminin gözetilmesi
+- Tekrar kullanılabilir yapıların tercih edilmesi
+- Okunabilir ve bakım yapılabilir kod yazılması
+
+---
+
+## Proje Yapısı
+
+```text
 src
-├── assets
-├── components
+├── assets/
+│
+├── components/
 │   ├── Navbar.jsx
 │   ├── HeroSection.jsx
 │   ├── About.jsx
 │   └── ...
+│
 ├── App.jsx
-└── main.jsx
-Kurulum
+├── main.jsx
+└── index.css
 
-Projeyi yerel ortamda çalıştırmak için:
+git clone https://github.com/reyhanmills/frontend-case-bucheen.git
 
-git clone <repo-url>
-cd bucheen
+cd frontend-case-bucheen
+
 npm install
+
 npm run dev
