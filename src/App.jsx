@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import About from './components/About'
 import HowItWorks from './components/HowItWorks'
+import MostPopular from './components/MostPopular'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeroSection></HeroSection>
       <About></About>
       <HowItWorks></HowItWorks>
+      <MostPopular></MostPopular>
     </main>
   )
 }

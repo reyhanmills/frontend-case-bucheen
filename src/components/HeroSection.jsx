@@ -3,7 +3,7 @@ import arrowDown from '../assets/arrow-down.png'
 
 function HeroSection() {
     return (
-        <section className="overflow-hidden bg-[#FFB9AF]/10">
+        <section className='relative z-10 overflow-hidden border-b border-[#D9D9D9] bg-[#FFB9AF]/10 shadow-md'>
             <div className="mx-auto flex max-w-[1200px] flex-col items-center px-7 py-12 lg:min-h-[730px] lg:flex-row lg:justify-between lg:px-0 lg:py-0">
 
                 {/* Sol içerik */}

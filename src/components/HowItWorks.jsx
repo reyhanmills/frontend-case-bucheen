@@ -4,7 +4,7 @@ import Profile from "../assets/circle-profile.svg"
 
 function HowItWorks() {
     return (
-        <section className="w-full border-t border-black bg-white py-20 pt-[404px] pb-8 lg:h-[670px] lg:py-0 lg:pt-[103px]">
+        <section className="w-full border-t border-b border-black bg-white py-20 pt-[404px] pb-8 lg:h-[670px] lg:py-0 lg:pt-[103px]">
             <div className="mx-auto max-w-[1440px] px-7 lg:px-0">
                 <div className="w-full max-w-[457px] lg:ml-[140px]">
                     
