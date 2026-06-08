@@ -1,16 +1,34 @@
-# React + Vite
+Proje Hakkında
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, verilen Figma tasarımına sadık kalınarak React ve Tailwind CSS kullanılarak geliştirilmiş bir landing page çalışmasıdır. Amaç; temiz component yapısı, okunabilir kod, responsive tasarım prensipleri ve modern frontend geliştirme yaklaşımlarını uygulayarak kullanıcı dostu bir arayüz oluşturmaktır.
 
-Currently, two official plugins are available:
+Kullanılan Teknolojiler
+React 19
+Vite
+Tailwind CSS 4
+Git & GitHub
+Figma
+Özellikler
+Figma tasarımına uygun arayüz geliştirmesi
+Component bazlı yapı
+Responsive tasarım desteği
+Modern ve okunabilir kod yapısı
+Tailwind CSS ile hızlı stil yönetimi
+Proje Yapısı
+src
+├── assets
+├── components
+│   ├── Navbar.jsx
+│   ├── HeroSection.jsx
+│   ├── About.jsx
+│   └── ...
+├── App.jsx
+└── main.jsx
+Kurulum
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Projeyi yerel ortamda çalıştırmak için:
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+git clone <repo-url>
+cd bucheen
+npm install
+npm run dev
