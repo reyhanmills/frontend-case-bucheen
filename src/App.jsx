@@ -4,6 +4,7 @@ import About from './components/About'
 import HowItWorks from './components/HowItWorks'
 import MostPopular from './components/MostPopular'
 import Comments from './components/Comments'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <HowItWorks></HowItWorks>
       <MostPopular></MostPopular>
       <Comments></Comments>
+      <Footer></Footer>
     </main>
   )
 }

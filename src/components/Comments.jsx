@@ -34,7 +34,7 @@ function Comments() {
     const [activeCard, setActiveCard] = useState(0)
 
     return (
-        <section className='bg-white pt-24 pb-20 lg:h-[700px] lg:pt-[256px] lg:pb-0'>
+        <section className='bg-white pt-24 pb-20 lg:min-h-[700px] lg:pt-[256px] lg:pb-20'>
             <div className='mx-auto max-w-[1440px]'>
 
                 {/* Başlık Alanı */}
